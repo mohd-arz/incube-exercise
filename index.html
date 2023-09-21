@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cooking Robot</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="header">Cooking Robot</h1>
+    <div class="ingredient-display">
+      <h2>Ingredient List</h2>
+      <h3 class="noodles-display">Noodle:</h3>
+      <h3 class="rice-display">Rice:</h3>
+      <h3 class="onion-display">Onion</h3>
+      <h3 class="carrot-display">Carrot</h3>
+    </div>
+    <div class="wrapper">
+      <div class="ingredient-container">
+        <h2>Ingredients</h2>
+        <label>
+          Noodle:
+          <input type="text" class="noodles" placeholder="m/g" />
+        </label>
+        <label>
+          Rice:
+          <input type="text" class="rice" placeholder="m/g" />
+        </label>
+        <label>
+          Onion:
+          <input type="text" class="onion" placeholder="m/g" />
+        </label>
+        <label>
+          Carrot:
+          <input type="text" class="carrot" placeholder="m/g" />
+        </label>
+        <button class="btn">Add</button>
+      </div>
+
+      <div class="get-order">
+        <h2>Orders</h2>
+        <label
+          >Noodles:
+          <input type="text" class="noodles-quantity" placeholder="quantity" />
+        </label>
+        <label>
+          Fried Rice:
+          <input
+            type="text"
+            class="friedrice-quantity"
+            placeholder="quantity"
+          />
+        </label>
+        <button class="order-btn">Order</button>
+      </div>
+    </div>
+  </body>
+</html>
